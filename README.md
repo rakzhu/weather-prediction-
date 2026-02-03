@@ -1,2 +1,2 @@
 # weather-prediction-
-This project predicts weather conditions using historical weather data. Trained an XGBoost classifier and evaluated its performance using accuracy on unseen test data.
+This project predicts weather conditions using historical weather data. I started by loading and exploring the dataset to understand feature distributions and data quality. I then encoded the categorical weather labels, selected relevant numerical features such as precipitation, temperature, and wind, and normalized them to ensure equal contribution. After splitting the data into training and testing sets, I trained an XGBoost classifier and evaluated its performance using accuracy on unseen test data.
